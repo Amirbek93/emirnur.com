@@ -1,0 +1,129 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+
+}
+.logo{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    left: -54px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    padding: 28px 0;
+    position: relative;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.link{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 0;
+    position: relative;
+}
+.link::after{
+    content: '';
+    background: radial-gradient(circle, #fdfffd, #e79d04);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition:height 0.5s ease-in-out, background 1s ease-in-out;
+
+}
+.nav-links li a:hover::after{
+    height: 5px;
+    background: radial-gradient(circle, #fca900, #ffca00, #fffdfd);
+}
+.btn{
+    background: #ffce00;
+    color: whitesmoke;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: radial-gradient(circle,gold, #f6f6f6);
+}
+.search-bx{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #efefef;
+}
+.search-bx h1{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.search-bx form{
+    background: #ffffff;
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+}
+.search-bx form input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size:
+}
+.search-bx form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.search-bx form button{
+    background: #f8c000;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.search-bx form button:hover{
+    background: #efb700;
+    color: whitesmoke;
+}
+h1{
+    color: #f68b00;
+    font-size: 50px;
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
