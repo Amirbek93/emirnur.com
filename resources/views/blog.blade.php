@@ -25,7 +25,7 @@
     <script src="/tunis/light/js/modernizr.custom.js"></script>
 </head>
 
-<body class="blog light">
+<body class="blog-post light">
 <!-- Header Starts -->
 <header class="header" id="navbar-collapse-toggle">
     <!-- Fixed Navigation Starts -->
@@ -38,25 +38,25 @@
         </li>
         <li class="icon-box">
             <i class="fa fa-user"></i>
-            <a href="about.html">
-                <h2>About</h2>
+            <a href="aboutus">
+                <h2>aboutus</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-briefcase"></i>
-            <a href="portfolio.html">
+            <a href="portfolio">
                 <h2>Portfolio</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-envelope-open"></i>
-            <a href="contact.html">
+            <a href="contact">
                 <h2>Contact</h2>
             </a>
         </li>
         <li class="icon-box active">
             <i class="fa fa-comments"></i>
-            <a href="/blog">
+            <a href="blog">
                 <h2>Blog</h2>
             </a>
         </li>
@@ -71,9 +71,9 @@
             <span></span>
             <ul class="list-unstyled" id="menu">
                 <li><a href="/"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
-                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
-                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li><a href="aboutus"><i class="fa fa-user"></i><span>aboutus</span></a></li>
+                <li><a href="portfolio"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li><a href="contact"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
                 <li class="active"><a href="/blog"><i class="fa fa-comments"></i><span>Blog</span></a></li>
             </ul>
         </div>
@@ -90,146 +90,28 @@
 <!-- Main Content Starts -->
 <section class="main-content revealator-slideup revealator-once revealator-delay1">
     <div class="container">
-        <!-- Articles Starts -->
         <div class="row">
             <!-- Article Starts -->
-            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
-                <article class="post-container">
-                    <div class="post-thumb">
-                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
-                            <img src="http://via.placeholder.com/895x552.jpg" class="img-fluid" alt="Blog Post">
-                        </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="entry-header">
-                            <h3><a href="blog-post.html">How to Own Your Audience by Creating an Email List</a></h3>
-                        </div>
-                        <div class="entry-content open-sans-font">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...
-                            </p>
-                        </div>
-                    </div>
-                </article>
-            </div>
+            <article class="col-12">
+                <!-- Meta Starts -->
+                <div class="meta open-sans-font">
+                    <span><i class="fa fa-user"></i>{{$blog->user->name}}</span>
+                    <span class="date"><i class="fa fa-calendar"></i> {{$blog->created_at}}</span>
+                    <span><i class="fa fa-tags"></i> wordpress, business, economy, design</span>
+                </div>
+                <!-- Meta Ends -->
+                <!-- Article Content Starts -->
+                <h1 class="text-uppercase text-capitalize">{{$blog->title}}</h1>
+                <img src="{{$blog->image}}" class="img-fluid" alt="Blog image"/>
+                <div class="blog-excerpt open-sans-font pb-5">
+                    {{$blog->description}}
+                </div>
+                <!-- Article Content Ends -->
+            </article>
             <!-- Article Ends -->
-            <!-- Article Starts -->
-            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
-                <article class="post-container">
-                    <div class="post-thumb">
-                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
-                            <img src="http://via.placeholder.com/895x552.jpg" class="img-fluid" alt="Blog Post">
-                        </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="entry-header">
-                            <h3><a href="blog-post.html">Top 10 Toolkits for Deep Learning in 2020</a></h3>
-                        </div>
-                        <div class="entry-content open-sans-font">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...
-                            </p>
-                        </div>
-                    </div>
-                </article>
-            </div>
-            <!-- Article Ends -->
-            <!-- Article Starts -->
-            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
-                <article class="post-container">
-                    <div class="post-thumb">
-                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
-                            <img src="http://via.placeholder.com/895x552.jpg" class="img-fluid" alt="Blog Post">
-                        </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="entry-header">
-                            <h3><a href="blog-post.html">Everything You Need to Know About Web Accessibility</a></h3>
-                        </div>
-                        <div class="entry-content open-sans-font">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...
-                            </p>
-                        </div>
-                    </div>
-                </article>
-            </div>
-            <!-- Article Ends -->
-            <!-- Article Starts -->
-            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
-                <article class="post-container">
-                    <div class="post-thumb">
-                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
-                            <img src="http://via.placeholder.com/895x552.jpg" class="img-fluid" alt="Blog Post">
-                        </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="entry-header">
-                            <h3><a href="blog-post.html">How to Inject Humor & Comedy Into Your Brand</a></h3>
-                        </div>
-                        <div class="entry-content open-sans-font">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...
-                            </p>
-                        </div>
-                    </div>
-                </article>
-            </div>
-            <!-- Article Ends -->
-            <!-- Article Starts -->
-            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
-                <article class="post-container">
-                    <div class="post-thumb">
-                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
-                            <img src="http://via.placeholder.com/895x552.jpg" class="img-fluid" alt="Blog Post">
-                        </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="entry-header">
-                            <h3><a href="blog-post.html">Women in Web Design: How To Achieve Success</a></h3>
-                        </div>
-                        <div class="entry-content open-sans-font">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...
-                            </p>
-                        </div>
-                    </div>
-                </article>
-            </div>
-            <!-- Article Ends -->
-            <!-- Article Starts -->
-            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
-                <article class="post-container">
-                    <div class="post-thumb">
-                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
-                            <img src="http://via.placeholder.com/895x552.jpg" class="img-fluid" alt="Blog Post">
-                        </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="entry-header">
-                            <h3><a href="blog-post.html">Evergreen versus topical content: An overview</a></h3>
-                        </div>
-                        <div class="entry-content open-sans-font">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...
-                            </p>
-                        </div>
-                    </div>
-                </article>
-            </div>
-            <!-- Article Ends -->
-            <!-- Pagination Starts -->
-            <div class="col-12 mt-4">
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination justify-content-center mb-0">
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item"><a class="page-link" href="#">4</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <!-- Pagination Ends -->
         </div>
-        <!-- Articles Ends -->
     </div>
-
 </section>
-
 <!-- Template JS Files -->
 <script src="/tunis/light/js/jquery-3.5.0.min.js"></script>
 <script src="/tunis/light/js/preloader.min.js"></script>

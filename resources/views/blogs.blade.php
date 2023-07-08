@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <title>Blog - Tunis Personal Portfolio</title>
@@ -23,9 +22,9 @@
 
     <!-- Modernizr JS File -->
     <script src="/tunis/light/js/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="/css/emirnuruz.css">
 </head>
-
-<body class="blog-post light">
+<body class="blog light">
 <!-- Header Starts -->
 <header class="header" id="navbar-collapse-toggle">
     <!-- Fixed Navigation Starts -->
@@ -56,7 +55,7 @@
         </li>
         <li class="icon-box active">
             <i class="fa fa-comments"></i>
-            <a href="blog">
+            <a href="/blog">
                 <h2>Blog</h2>
             </a>
         </li>
@@ -90,37 +89,51 @@
 <!-- Main Content Starts -->
 <section class="main-content revealator-slideup revealator-once revealator-delay1">
     <div class="container">
+        <!-- Articles Starts -->
         <div class="row">
+
+            @foreach($blogs as $blog)
             <!-- Article Starts -->
-            <article class="col-12">
-                <!-- Meta Starts -->
-                <div class="meta open-sans-font">
-                    <span><i class="fa fa-user"></i> steve</span>
-                    <span class="date"><i class="fa fa-calendar"></i> 9 January 2017</span>
-                    <span><i class="fa fa-tags"></i> wordpress, business, economy, design</span>
-                </div>
-                <!-- Meta Ends -->
-                <!-- Article Content Starts -->
-                <h1 class="text-uppercase text-capitalize">Everything You Need to Know aboutus Web Accessibility</h1>
-                <img src="http://via.placeholder.com/895x552.jpg" class="img-fluid" alt="Blog image"/>
-                <div class="blog-excerpt open-sans-font pb-5">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <!-- Article Content Ends -->
-            </article>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
+                <article class="post-container">
+                    <div class="post-thumb">
+                        <a href="/blog/{{$blog->id}}" class="d-block position-relative overflow-hidden">
+                            <img src="{{$blog->image}}" class="img-fluid" alt="Blog Post">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <div class="entry-header">
+                            <h3><a href="/blog/{{$blog->id}}">{{$blog->title}}</a></h3>
+                        </div>
+                        <div class="entry-content open-sans-font">
+                            <p>
+                                {{$blog->desctiption}}
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
             <!-- Article Ends -->
+            @endforeach
+
+            <!-- Pagination Starts -->
+            <div class="col-12 mt-4">
+                <nav class="pagination justify-content-center" aria-label="Page navigation example">
+                    <!-- ul class="pagination justify-content-center mb-0">
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    </ul -->
+                    {{$blogs->links()}}
+                </nav>
+            </div>
+            <!-- Pagination Ends -->
         </div>
+        <!-- Articles Ends -->
     </div>
 </section>
+
 <!-- Template JS Files -->
 <script src="/tunis/light/js/jquery-3.5.0.min.js"></script>
 <script src="/tunis/light/js/preloader.min.js"></script>
@@ -135,5 +148,4 @@
 <script src="/tunis/light/js/custom.js"></script>
 
 </body>
-
 </html>

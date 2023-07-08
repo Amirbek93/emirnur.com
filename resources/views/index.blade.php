@@ -39,7 +39,7 @@
         <li class="icon-box">
             <i class="fa fa-user"></i>
             <a href="/aboutus">
-                <h2>About</h2>
+                <h2>aboutus</h2>
             </a>
         </li>
         <li class="icon-box">
@@ -71,7 +71,7 @@
             <span></span>
             <ul class="list-unstyled" id="menu">
                 <li class="active"><a href="/"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="/aboutus"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="/aboutus"><i class="fa fa-user"></i><span>aboutus</span></a></li>
                 <li><a href="/portfolio"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
                 <li><a href="/contact"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
                 <li><a href="/blog"><i class="fa fa-comments"></i><span>Blog</span></a></li>
@@ -90,9 +90,9 @@
             <div>
                 <img src="/tunis/light/img/akramov2.jpg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="my picture" />
                 <h1 class="text-uppercase poppins-font">I'm Amirbek Akramov.<span>Software Engineer</span></h1>
-                <p class="open-sans-font">I'm a Uzbek based Software Engineer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+                <p class="open-sans-font">I'm a Uzbek based Software Engineer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate aboutus building excellent software that improves the lives of those around me.</p>
                 <a class="button" href="/aboutus">
-                    <span class="button-text">more about me</span>
+                    <span class="button-text">more aboutus me</span>
                     <span class="button-icon fa fa-arrow-right"></span>
                 </a>
             </div>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>About Akramov Portfolio</title>
+    <title>aboutus Akramov Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Template Google Fonts -->
@@ -25,7 +25,7 @@
     <script src="/tunis/light/js/modernizr.custom.js"></script>
 </head>
 
-<body class="about light">
+<body class="aboutus light">
 <!-- Header Starts -->
 <header class="header" id="navbar-collapse-toggle">
     <!-- Fixed Navigation Starts -->
@@ -39,24 +39,24 @@
         <li class="icon-box active">
             <i class="fa fa-user"></i>
             <a href="/aboutus">
-                <h2>About</h2>
+                <h2>aboutus</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-briefcase"></i>
-            <a href="portfolio.html">
+            <a href="portfolio">
                 <h2>Portfolio</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-envelope-open"></i>
-            <a href="contact.html">
+            <a href="contact">
                 <h2>Contact</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-comments"></i>
-            <a href="blog.html">
+            <a href="blog">
                 <h2>Blog</h2>
             </a>
         </li>
@@ -70,11 +70,11 @@
             <span></span>
             <span></span>
             <ul class="list-unstyled" id="menu">
-                <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li class="active"><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
-                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
-                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li><a href="/"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li class="active"><a href="aboutus"><i class="fa fa-user"></i><span>aboutus</span></a></li>
+                <li><a href="portfolio"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li><a href="contact"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li><a href="blog"><i class="fa fa-comments"></i><span>Blog</span></a></li>
             </ul>
         </div>
     </nav>
@@ -83,7 +83,7 @@
 <!-- Header Ends -->
 <!-- Page Title Starts -->
 <section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
-    <h1>ABOUT <span>ME</span></h1>
+    <h1>aboutus <span>ME</span></h1>
     <span class="title-bg">Resume</span>
 </section>
 <!-- Page Title Ends -->
@@ -101,7 +101,7 @@
                         <img src="http://via.placeholder.com/300x300.jpg" class="img-fluid main-img-mobile" alt="my picture" />
                     </div>
                     <div class="col-6">
-                        <ul class="about-list list-unstyled open-sans-font">
+                        <ul class="aboutus-list list-unstyled open-sans-font">
                             <li> <span class="title">first name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Amirbek</span> </li>
                             <li> <span class="title">last name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Akramov</span> </li>
                             <li> <span class="title">Age :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">29 Years</span> </li>
@@ -110,7 +110,7 @@
                         </ul>
                     </div>
                     <div class="col-6">
-                        <ul class="about-list list-unstyled open-sans-font">
+                        <ul class="aboutus-list list-unstyled open-sans-font">
                             <li> <span class="title">Address :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">New York</span> </li>
                             <li> <span class="title">phone :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">+13473726765</span> </li>
                             <li> <span class="title">Email :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">My@mail.com</span> </li>

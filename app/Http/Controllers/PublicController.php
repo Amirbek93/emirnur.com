@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use Illuminate\Http\Request;
 
 class PublicController extends Controller
@@ -18,10 +19,16 @@ class PublicController extends Controller
     public function contact(Request $request){
         return view('contact');
     }
-    public function blog(Request $request){
-        return view('blog');
-    }
     public function post(Request $request){
         return view('blog-post');
+    }
+    public function blog(Request $request, $id){
+        $id = (int) $id;
+        $blog = Blog::find($id);
+        return view('blog',compact('blog'));
+    }
+    public function blogs(Request $request){
+        $blogs = Blog::paginate(5);
+        return view('blogs',compact('blogs'));
     }
 }

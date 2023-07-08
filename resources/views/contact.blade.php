@@ -39,7 +39,7 @@
         <li class="icon-box">
             <i class="fa fa-user"></i>
             <a href="/aboutus">
-                <h2>About</h2>
+                <h2>aboutus</h2>
             </a>
         </li>
         <li class="icon-box">
@@ -56,7 +56,7 @@
         </li>
         <li class="icon-box">
             <i class="fa fa-comments"></i>
-            <a href="blog.html">
+            <a href="blog">
                 <h2>Blog</h2>
             </a>
         </li>
@@ -71,10 +71,10 @@
             <span></span>
             <ul class="list-unstyled" id="menu">
                 <li><a href="/"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="/aboutus"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="/aboutus"><i class="fa fa-user"></i><span>aboutus</span></a></li>
                 <li><a href="/portfolio"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
                 <li class="active"><a href="/contact"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li><a href="blog"><i class="fa fa-comments"></i><span>Blog</span></a></li>
             </ul>
         </div>
     </nav>
