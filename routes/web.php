@@ -15,3 +15,7 @@ use App\Http\Controllers\PublicController;
 
 Route::get('/',[PublicController::class,'index'])->name('index');
 Route::get('/aboutus',[PublicController::class,'aboutus'])->name('aboutus');
+Route::get('/portfolio',[PublicController::class,'portfolio'])->name('portfolio');
+Route::get('/contact',[PublicController::class,'contact'])->name('contact');
+Route::get('/blog',[PublicController::class,'blog'])->name('blog');
+Route::get('/blog-post',[PublicController::class,'blog-post'])->name('blog-post');

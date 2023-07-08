@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>About - Tunis Personal Portfolio</title>
+    <title>About Akramov Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Template Google Fonts -->
@@ -102,20 +102,20 @@
                     </div>
                     <div class="col-6">
                         <ul class="about-list list-unstyled open-sans-font">
-                            <li> <span class="title">first name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Lucy</span> </li>
-                            <li> <span class="title">last name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Milner</span> </li>
-                            <li> <span class="title">Age :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">27 Years</span> </li>
-                            <li> <span class="title">Nationality :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Tunisian</span> </li>
+                            <li> <span class="title">first name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Amirbek</span> </li>
+                            <li> <span class="title">last name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Akramov</span> </li>
+                            <li> <span class="title">Age :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">29 Years</span> </li>
+                            <li> <span class="title">Nationality :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">UZBEK</span> </li>
                             <li> <span class="title">Freelance :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Available</span> </li>
                         </ul>
                     </div>
                     <div class="col-6">
                         <ul class="about-list list-unstyled open-sans-font">
-                            <li> <span class="title">Address :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Tunis</span> </li>
-                            <li> <span class="title">phone :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">+21621184010</span> </li>
-                            <li> <span class="title">Email :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">you@mail.com</span> </li>
-                            <li> <span class="title">Skype :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">lucy.milner</span> </li>
-                            <li> <span class="title">langages :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">French, English</span> </li>
+                            <li> <span class="title">Address :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">New York</span> </li>
+                            <li> <span class="title">phone :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">+13473726765</span> </li>
+                            <li> <span class="title">Email :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">My@mail.com</span> </li>
+                            <li> <span class="title">LinkedIn :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Amirbek Akramov</span> </li>
+                            <li> <span class="title">langages :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Russian, English</span> </li>
                         </ul>
                     </div>
                     <div class="col-12 mt-3">
