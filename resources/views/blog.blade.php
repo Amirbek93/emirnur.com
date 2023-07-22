@@ -95,16 +95,25 @@
             <article class="col-12">
                 <!-- Meta Starts -->
                 <div class="meta open-sans-font">
-                    <span><i class="fa fa-user"></i>{{$blog->user->name}}</span>
-                    <span class="date"><i class="fa fa-calendar"></i> {{$blog->created_at}}</span>
+                    <span><i class="fa fa-user"></i> steve</span>
+                    <span class="date"><i class="fa fa-calendar"></i> 9 January 2017</span>
                     <span><i class="fa fa-tags"></i> wordpress, business, economy, design</span>
                 </div>
                 <!-- Meta Ends -->
                 <!-- Article Content Starts -->
-                <h1 class="text-uppercase text-capitalize">{{$blog->title}}</h1>
-                <img src="{{$blog->image}}" class="img-fluid" alt="Blog image"/>
+                <h1 class="text-uppercase text-capitalize">Everything You Need to Know aboutus Web Accessibility</h1>
+                <img src="http://via.placeholder.com/895x552.jpg" class="img-fluid" alt="Blog image"/>
                 <div class="blog-excerpt open-sans-font pb-5">
-                    {{$blog->description}}
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <!-- Article Content Ends -->
             </article>

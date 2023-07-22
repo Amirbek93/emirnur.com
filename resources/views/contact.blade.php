@@ -56,8 +56,8 @@
         </li>
         <li class="icon-box">
             <i class="fa fa-comments"></i>
-            <a href="blog">
-                <h2>Blog</h2>
+            <a href="/blogs">
+                <h2>Blogs</h2>
             </a>
         </li>
     </ul>
@@ -74,7 +74,7 @@
                 <li><a href="/aboutus"><i class="fa fa-user"></i><span>aboutus</span></a></li>
                 <li><a href="/portfolio"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
                 <li class="active"><a href="/contact"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="blog"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li><a href="/blogs"><i class="fa fa-comments"></i><span>Blogs</span></a></li>
             </ul>
         </div>
     </nav>
@@ -84,7 +84,7 @@
 <!-- Page Title Starts -->
 <section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
     <h1>get in <span>touch</span></h1>
-    <span class="title-bg">contact</span>
+    <span class="title-bg">Contact</span>
 </section>
 <!-- Page Title Ends -->
 <!-- Main Content Starts -->
@@ -97,11 +97,11 @@
                 <p class="open-sans-font mb-3">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
                 <p class="open-sans-font custom-span-contact position-relative">
                     <i class="fa fa-envelope-open position-absolute"></i>
-                    <span class="d-block">mail me</span>lucy@mail.com
+                    <span class="d-block">Mail Me</span>amirbek2693@yahoo.com
                 </p>
                 <p class="open-sans-font custom-span-contact position-relative">
                     <i class="fa fa-phone-square position-absolute"></i>
-                    <span class="d-block">call me</span>+216 21 184 010
+                    <span class="d-block">Call me</span>+1 (347) 372 6765
                 </p>
                 <ul class="social list-unstyled pt-1 mb-5">
                     <li class="facebook"><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a>

@@ -39,7 +39,7 @@
         <li class="icon-box">
             <i class="fa fa-user"></i>
             <a href="/aboutus">
-                <h2>aboutus</h2>
+                <h2>About</h2>
             </a>
         </li>
         <li class="icon-box active">
@@ -50,13 +50,13 @@
         </li>
         <li class="icon-box">
             <i class="fa fa-envelope-open"></i>
-            <a href="contact">
+            <a href="/contact">
                 <h2>Contact</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-comments"></i>
-            <a href="blog">
+            <a href="/blogs">
                 <h2>Blog</h2>
             </a>
         </li>
@@ -71,10 +71,10 @@
             <span></span>
             <ul class="list-unstyled" id="menu">
                 <li><a href="/"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="/aboutus"><i class="fa fa-user"></i><span>aboutus</span></a></li>
+                <li><a href="/aboutus"><i class="fa fa-user"></i><span>About</span></a></li>
                 <li class="active"><a href="/portfolio"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
-                <li><a href="contact"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="blog"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li><a href="/contact"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li><a href="/blogs"><i class="fa fa-comments"></i><span>Blog</span></a></li>
             </ul>
         </div>
     </nav>
@@ -93,77 +93,18 @@
         <!-- Portfolio Grid Starts -->
         <section class="grid-wrap">
             <ul class="row grid">
+                @foreach($portfolios as $portfolio)
+                    <!-- Portfolio Item Starts -->
+                    <li>
+                        <figure>
+                            <img src="{{$portfolio->image}}" alt="Portfolio Image" />
+                            <div><span>Project #{{$portfolio->id}}</span></div>
+                        </figure>
+                    </li>
+                    <!-- Portfolio Item Ends -->
+                @endforeach
                 <!-- Portfolio Item Starts -->
-                <li>
-                    <figure>
-                        <img src="http://via.placeholder.com/895x552.jpg" alt="Portolio Image" />
-                        <div><span>Image Project</span></div>
-                    </figure>
-                </li>
-                <!-- Portfolio Item Ends -->
-                <!-- Portfolio Item Starts -->
-                <li>
-                    <figure>
-                        <img src="http://via.placeholder.com/895x552.jpg" alt="Portolio Image" />
-                        <div><span>Youtube Project</span></div>
-                    </figure>
-                </li>
-                <!-- Portfolio Item Ends -->
-                <!-- Portfolio Item Starts -->
-                <li>
-                    <figure>
-                        <img src="http://via.placeholder.com/895x552.jpg" alt="Portolio Image" />
-                        <div><span>Slider Project</span></div>
-                    </figure>
-                </li>
-                <!-- Portfolio Item Ends -->
-                <!-- Portfolio Item Starts -->
-                <li>
-                    <figure>
-                        <img src="http://via.placeholder.com/895x552.jpg" alt="Portolio Image" />
-                        <div><span>Local Video Project</span></div>
-                    </figure>
-                </li>
-                <!-- Portfolio Item Ends -->
-                <!-- Portfolio Item Starts -->
-                <li>
-                    <figure>
-                        <img src="http://via.placeholder.com/895x552.jpg" alt="Portolio Image" />
-                        <div><span>Image Project</span></div>
-                    </figure>
-                </li>
-                <!-- Portfolio Item Ends -->
-                <!-- Portfolio Item Starts -->
-                <li>
-                    <figure>
-                        <img src="http://via.placeholder.com/895x552.jpg" alt="Portolio Image" />
-                        <div><span>Image Project</span></div>
-                    </figure>
-                </li>
-                <!-- Portfolio Item Ends -->
-                <!-- Portfolio Item Starts -->
-                <li>
-                    <figure>
-                        <img src="http://via.placeholder.com/895x552.jpg" alt="Portolio Image" />
-                        <div><span>Image Project</span></div>
-                    </figure>
-                </li>
-                <!-- Portfolio Item Ends -->
-                <!-- Portfolio Item Starts -->
-                <li>
-                    <figure>
-                        <img src="http://via.placeholder.com/895x552.jpg" alt="Portolio Image" />
-                        <div><span>Image Project</span></div>
-                    </figure>
-                </li>
-                <!-- Portfolio Item Ends -->
-                <!-- Portfolio Item Starts -->
-                <li>
-                    <figure>
-                        <img src="http://via.placeholder.com/895x552.jpg" alt="Portolio Image" />
-                        <div><span>Image Project</span></div>
-                    </figure>
-                </li>
+
                 <!-- Portfolio Item Ends -->
             </ul>
         </section>
@@ -171,34 +112,36 @@
         <!-- Portfolio Details Starts -->
         <section class="slideshow">
             <ul>
-                <!-- Portfolio Item Detail Starts -->
-                <li>
-                    <figure>
-                        <!-- Project Details Starts -->
-                        <figcaption>
-                            <h3>Image Project</h3>
-                            <div class="row open-sans-font">
-                                <div class="col-12 col-sm-6 mb-2">
-                                    <i class="fa fa-file-text-o pr-2"></i><span class="project-label">Project </span>: <span class="ft-wt-600 uppercase">Website</span>
+                @foreach($portfolios as $portfolio)
+                    <!-- Portfolio Item Detail Starts -->
+                    <li>
+                        <figure>
+                            <!-- Project Details Starts -->
+                            <figcaption>
+                                <h3>Image Project</h3>
+                                <div class="row open-sans-font">
+                                    <div class="col-12 col-sm-6 mb-2">
+                                        <i class="fa fa-file-text-o pr-2"></i><span class="project-label">Project </span>: <span class="ft-wt-600 uppercase">Website</span>
+                                    </div>
+                                    <div class="col-12 col-sm-6 mb-2">
+                                        <i class="fa fa-user-o pr-2"></i><span class="project-label">Client </span>: <span class="ft-wt-600 uppercase">Envato</span>
+                                    </div>
+                                    <div class="col-12 col-sm-6 mb-2">
+                                        <i class="fa fa-code pr-2"></i><span class="project-label">Langages </span>: <span class="ft-wt-600 uppercase">HTML, CSS, Javascript</span>
+                                    </div>
+                                    <div class="col-12 col-sm-6 mb-2">
+                                        <i class="fa fa-external-link pr-2"></i><span class="project-label">Preview </span>: <span class="ft-wt-600 uppercase"><a href="#" target="_blank">www.envato.com</a></span>
+                                    </div>
                                 </div>
-                                <div class="col-12 col-sm-6 mb-2">
-                                    <i class="fa fa-user-o pr-2"></i><span class="project-label">Client </span>: <span class="ft-wt-600 uppercase">Envato</span>
-                                </div>
-                                <div class="col-12 col-sm-6 mb-2">
-                                    <i class="fa fa-code pr-2"></i><span class="project-label">Langages </span>: <span class="ft-wt-600 uppercase">HTML, CSS, Javascript</span>
-                                </div>
-                                <div class="col-12 col-sm-6 mb-2">
-                                    <i class="fa fa-external-link pr-2"></i><span class="project-label">Preview </span>: <span class="ft-wt-600 uppercase"><a href="#" target="_blank">www.envato.com</a></span>
-                                </div>
-                            </div>
-                        </figcaption>
-                        <!-- Project Details Ends -->
-                        <!-- Main Project Content Starts -->
-                        <img src="http://via.placeholder.com/895x552.jpg" alt="Portolio Image" />
-                        <!-- Main Project Content Ends -->
-                    </figure>
-                </li>
-                <!-- Portfolio Item Detail Ends -->
+                            </figcaption>
+                            <!-- Project Details Ends -->
+                            <!-- Main Project Content Starts -->
+                            <img src="{{$portfolio->image}}" alt="Portolio Image" />
+                            <!-- Main Project Content Ends -->
+                        </figure>
+                    </li>
+                    <!-- Portfolio Item Detail Ends -->
+                @endforeach
                 <!-- Portfolio Item Detail Starts -->
                 <li>
                     <figure>

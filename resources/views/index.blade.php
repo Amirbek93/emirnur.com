@@ -56,8 +56,8 @@
         </li>
         <li class="icon-box">
             <i class="fa fa-comments"></i>
-            <a href="/blog">
-                <h2>Blog</h2>
+            <a href="/blogs">
+                <h2>Blogs</h2>
             </a>
         </li>
     </ul>
@@ -74,7 +74,7 @@
                 <li><a href="/aboutus"><i class="fa fa-user"></i><span>aboutus</span></a></li>
                 <li><a href="/portfolio"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
                 <li><a href="/contact"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="/blog"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li><a href="/blogs"><i class="fa fa-comments"></i><span>Blogs</span></a></li>
             </ul>
         </div>
     </nav>
@@ -90,9 +90,9 @@
             <div>
                 <img src="/tunis/light/img/akramov2.jpg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="my picture" />
                 <h1 class="text-uppercase poppins-font">I'm Amirbek Akramov.<span>Software Engineer</span></h1>
-                <p class="open-sans-font">I'm a Uzbek based Software Engineer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate aboutus building excellent software that improves the lives of those around me.</p>
+                <p class="open-sans-font">I am a Software Engineer and front-end developer with a strong emphasis on crafting clean and user-friendly experiences. I am deeply passionate about creating exceptional software that enhances the lives of those around me.</p>
                 <a class="button" href="/aboutus">
-                    <span class="button-text">more aboutus me</span>
+                    <span class="button-text">More About Me</span>
                     <span class="button-icon fa fa-arrow-right"></span>
                 </a>
             </div>

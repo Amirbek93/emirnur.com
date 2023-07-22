@@ -1,3 +1,17 @@
 .hidden{
     display: none;
 }
+
+/*.w-5{
+    width: 45px !important;
+    height: 45px !important;
+    color: #fff;
+    background-color: #72a424;
+    border: 1px solid #252525;
+    padding: 0;
+    margin: 0 10px;
+    border-radius: 50% !important;
+    line-height: 43px;
+    text-align: center;
+    transition: .3s;
+}*/

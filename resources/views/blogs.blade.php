@@ -55,8 +55,8 @@
         </li>
         <li class="icon-box active">
             <i class="fa fa-comments"></i>
-            <a href="/blog">
-                <h2>Blog</h2>
+            <a href="/blogs">
+                <h2>Blogs</h2>
             </a>
         </li>
     </ul>
@@ -73,7 +73,7 @@
                 <li><a href="aboutus"><i class="fa fa-user"></i><span>aboutus</span></a></li>
                 <li><a href="portfolio"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
                 <li><a href="contact"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li class="active"><a href="/blog"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li class="active"><a href="/blogs"><i class="fa fa-comments"></i><span>Blogs</span></a></li>
             </ul>
         </div>
     </nav>
@@ -119,12 +119,12 @@
             <!-- Pagination Starts -->
             <div class="col-12 mt-4">
                 <nav class="pagination justify-content-center" aria-label="Page navigation example">
-                    <!-- ul class="pagination justify-content-center mb-0">
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item"><a class="page-link" href="#">4</a></li>
-                    </ul -->
+                    <!--<ul class="pagination justify-content-center mb-0">
+                        <li class="page-item"><a class="page-link" href="http://emirnur.uz/blogs?page=1">1</a></li>
+                        <li class="page-item active"><a class="page-link" href="http://emirnur.uz/blogs?page=2">2</a></li>
+                        <li class="page-item"><a class="page-link" href="http://emirnur.uz/blogs?page=3">3</a></li>
+                        <li class="page-item"><a class="page-link" href="http://emirnur.uz/blogs?page=4">4</a></li>
+                    </ul>-->
                     {{$blogs->links()}}
                 </nav>
             </div>
