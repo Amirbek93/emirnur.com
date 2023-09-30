@@ -112,13 +112,13 @@
                         <ul class="about-list list-unstyled open-sans-font">
                             <li> <span class="title">Address :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">New York</span> </li>
                             <li> <span class="title">phone :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">+1 (347) 372 6765</span> </li>
-                            <li> <span class="title">Email :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">my@mail.com</span> </li>
+                            <li> <span class="title">Email :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">amirbek2693@gmail.com</span> </li>
                             <li> <span class="title">LinkedIn :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Amirbek Akramov</span> </li>
                             <li> <span class="title">langages :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">English</span> </li>
                         </ul>
                     </div>
                     <div class="col-12 mt-3">
-                        <a class="button" href="#">
+                        <a class="button" href="/docs/resume.pdf">
                             <span class="button-text">Download CV</span>
                             <span class="button-icon fa fa-download"></span>
                         </a>
@@ -131,7 +131,7 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="box-stats with-margin">
-                            <h3 class="poppins-font position-relative">3</h3>
+                            <h3 class="poppins-font position-relative">5</h3>
                             <p class="open-sans-font m-0 position-relative text-uppercase">years of <span class="d-block">experience</span></p>
                         </div>
                     </div>
@@ -165,83 +165,83 @@
             </div>
             <div class="col-6 col-md-3 mb-3 mb-sm-5">
                 <div class="c100 p89">
-                    <span>89%</span>
+                    <span>99%</span>
                     <div class="slice">
                         <div class="bar"></div>
                         <div class="fill"></div>
                     </div>
                 </div>
-                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">html</h6>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">HTML</h6>
             </div>
             <div class="col-6 col-md-3 mb-3 mb-sm-5">
                 <div class="c100 p89">
-                    <span>89%</span>
-                    <div class="slice">
-                        <div class="bar"></div>
-                        <div class="fill"></div>
-                    </div>
-                </div>
-                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">javascript</h6>
-            </div>
-            <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                <div class="c100 p70">
-                    <span>70%</span>
-                    <div class="slice">
-                        <div class="bar"></div>
-                        <div class="fill"></div>
-                    </div>
-                </div>
-                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">css</h6>
-            </div>
-            <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                <div class="c100 p90">
-                    <span>90%</span>
-                    <div class="slice">
-                        <div class="bar"></div>
-                        <div class="fill"></div>
-                    </div>
-                </div>
-                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">php</h6>
-            </div>
-            <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                <div class="c100 p95">
                     <span>95%</span>
                     <div class="slice">
                         <div class="bar"></div>
                         <div class="fill"></div>
                     </div>
                 </div>
-                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">wordpress</h6>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">JavaScript</h6>
             </div>
             <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                <div class="c100 p50">
-                    <span>50%</span>
+                <div class="c100 p70">
+                    <span>90%</span>
                     <div class="slice">
                         <div class="bar"></div>
                         <div class="fill"></div>
                     </div>
                 </div>
-                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">jquery</h6>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">CSS</h6>
             </div>
             <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                <div class="c100 p75">
+                <div class="c100 p90">
+                    <span>100%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">PHP</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p95">
+                    <span>100%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">WordPress</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p50">
                     <span>70%</span>
                     <div class="slice">
                         <div class="bar"></div>
                         <div class="fill"></div>
                     </div>
                 </div>
-                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">angular</h6>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">jQuery</h6>
             </div>
             <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                <div class="c100 p45">
-                    <span>45%</span>
+                <div class="c100 p75">
+                    <span>100%</span>
                     <div class="slice">
                         <div class="bar"></div>
                         <div class="fill"></div>
                     </div>
                 </div>
-                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">react</h6>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Laravel</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p45">
+                    <span>90%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Linux</h6>
             </div>
         </div>
         <!-- Skills Ends -->
@@ -260,7 +260,15 @@
                             </div>
                             <span class="time open-sans-font text-uppercase">2023 - Present</span>
                             <h5 class="poppins-font text-uppercase">Web Developer <span class="place open-sans-font">MYITEDU</span></h5>
-                            <p class="open-sans-font">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, </p>
+                            <p class="open-sans-font">I am a dedicated Software Developer with a demonstrated track record of excellence at MYITEDU, LLC. With a strong foundation in a wide array of technologies, including PHP, HTML, CSS, JavaScript, MyS9L, Bootstrap, j9uery, GitHub, and Linux, I have consistently delivered high-quality software solutions that meet both technical and business objectives.</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">FEBRUARY 2013 — APRIL 2017</span>
+                            <h5 class="poppins-font text-uppercase">Web Developer <span class="place open-sans-font">Software Developer, Gurtam, Moscow</span></h5>
+                            <p class="open-sans-font">I am a seasoned Software Developer with a distinguished four-year tenure at Gurtam, during which I honed my expertise in a variety of technical domains. My skill set encompasses a diverse range of technologies including PHP, HTML, CSS, JavaScript, and Linux. Throughout my tenure, I consistently demonstrated a deep understanding of software development principles and a keen ability to translate complex technical requirements into efNcient and elegant solutions.</p>
                         </li>
                         <li>
                             <div class="icon">
@@ -268,7 +276,7 @@
                             </div>
                             <span class="time open-sans-font text-uppercase">2023</span>
                             <h5 class="poppins-font text-uppercase">Master Degree <span class="place open-sans-font">Boston University</span></h5>
-                            <p class="open-sans-font">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut adipisicing</p>
+                            <p class="open-sans-font">I am a seasoned Software Developer with a distinguished four-year tenure at Boston University, during which I honed my expertise in a variety of technical domains. My skill set encompasses a diverse range of technologies including PHP, HTML, CSS, JavaScript, and Linux. Throughout my tenure, I consistently demonstrated a deep understanding of software development principles and a keen ability to translate complex technical requirements into efNcient and elegant solutions.</p>
                         </li>
                     </ul>
                 </div>
@@ -282,7 +290,15 @@
                             </div>
                             <span class="time open-sans-font text-uppercase">2009-2012</span>
                             <h5 class="poppins-font text-uppercase">College Degree <span class="place open-sans-font">Law College</span></h5>
-                            <p class="open-sans-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore</p>
+                            <p class="open-sans-font">Legal Research and Analysis: ProNcient in conducting in-depth legal research using various resources to analyze statutes, regulations, case law, and legal precedents. Skilled at identifying relevant legal principles and applying them to complex legal issues.</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2018-2019</span>
+                            <h5 class="poppins-font text-uppercase">College Degree <span class="place open-sans-font">Associate, ASA College, Brooklyn</span></h5>
+                            <p class="open-sans-font">Computer software engineering6 The realm where creativity meets code. Engineers conceptualize, build, and reNne software solutions that drive efNciency and innovation. It8s a world of problem-solving, constant learning, and turning ideas into digital reality, shaping the way we work, communicate, and experience life.</p>
                         </li>
                         <li>
                             <div class="icon">
@@ -290,7 +306,8 @@
                             </div>
                             <span class="time open-sans-font text-uppercase">2012 - 2016</span>
                             <h5 class="poppins-font text-uppercase">Engineering Degree <span class="place open-sans-font">Bukhara University</span></h5>
-                            <p class="open-sans-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore</p>
+                            <p class="open-sans-font">Computer software engineering6 The art of crafting digital solutions that power our modern world. Engineers design, develop, and optimize software, translating ideas into functional code. It8s a dynamic Neld where creativity meets technology, driving innovation and shaping the digital landscape we interact with daily.
+                            </p>
                         </li>
                     </ul>
                 </div>

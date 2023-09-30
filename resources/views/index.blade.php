@@ -90,7 +90,7 @@
             <div>
                 <img src="/tunis/light/img/akramov2.jpg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="my picture" />
                 <h1 class="text-uppercase poppins-font">I'm Amirbek Akramov.<span>Software Engineer</span></h1>
-                <p class="open-sans-font">I am a Software Engineer and front-end developer with a strong emphasis on crafting clean and user-friendly experiences. I am deeply passionate about creating exceptional software that enhances the lives of those around me.</p>
+                <p class="open-sans-font">Highly skilled and motivated Full Stack Developer with +5 years of hands-on experience in developing modern, dynamic web applications in PHP, Laravel, and Wordpress. Proven ability to lead teams to successful project completion through effective communication, problem-solving, and collaboration. Seeking a challenging role where I can leverage my expertise and leadership skills to drive innovation, optimize performance, and deliver exceptional results for the organization.</p>
                 <a class="button" href="/aboutus">
                     <span class="button-text">More About Me</span>
                     <span class="button-icon fa fa-arrow-right"></span>
